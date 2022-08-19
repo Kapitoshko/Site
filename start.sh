@@ -11,6 +11,7 @@ echo "PermitRootLogin yes" >> /etc/ssh/sshd_config
 service ssh restart
 service nginx start
 sleep 5
-rm /var/html/www/index.nginx-debian.html
-git clone https://github.com/Kapitoshko/Site /var/www/html
+rm /var/www/html/index.nginx-debian.html
+cd /var/www/html/
+git clone https://github.com/Kapitoshko/Site .
 
