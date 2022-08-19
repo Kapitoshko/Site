@@ -17,6 +17,8 @@ services:
     expose:
       - port: 80
         as: 80
+        accept:
+         - "akashnodes.ingress.europlots.com"        
         to:
           - global: true
       - port: 22
