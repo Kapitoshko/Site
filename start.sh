@@ -13,5 +13,5 @@ service nginx start
 sleep 5
 rm /var/www/html/index.nginx-debian.html
 cd /var/www/html/
-git clone https://github.com/Kapitoshko/Site .
+git clone https://github.com/PavloDereniuk/goit-markup-hw-07 .
 
